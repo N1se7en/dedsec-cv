@@ -56,7 +56,7 @@ export default function Home() {
         }}
       >
         <footer className="sticky bottom-5 w-full cursor-pointer">
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-end px-5">
             <ArrowUpCircleIcon className="h-10 w-10 hover:text-blue-500" />
           </div>
         </footer>

@@ -24,7 +24,7 @@ export default function Contact() {
           </div>
           <div className="flex items-center space-x-5 justify-center ">
             <MapIcon className="text-red-500 h-7 w-7 animate-pulse" />
-            <p className="text-2xl">Mayakanon Cottage, Abdullahpur, Dhaka</p>
+            <p className="text-2xl ">Mayakanon Cottage, Dhaka</p>
           </div>
         </div>
       </div>
