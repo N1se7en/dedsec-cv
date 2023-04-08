@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Link from "next/link";
 import Navanime from "./Navanime";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { CgMenuGridR, CgEricsson } from "react-icons/cg";
@@ -42,7 +41,7 @@ export default function Navbar() {
         </h1>
 
         <ul className=" hidden md:flex">
-          <Link
+          <a
             href={"#about"}
             onClick={() => {
               toggleNavList("#about");
@@ -50,8 +49,8 @@ export default function Navbar() {
             }}
           >
             <Navanime>ABOUT</Navanime>
-          </Link>
-          <Link
+          </a>
+          <a
             href={"#skills"}
             onClick={() => {
               toggleNavList("#skills");
@@ -59,9 +58,9 @@ export default function Navbar() {
             }}
           >
             <Navanime>SKILLS</Navanime>
-          </Link>
+          </a>
 
-          <Link
+          <a
             href={"#resume"}
             onClick={() => {
               toggleNavList("#resume");
@@ -69,9 +68,9 @@ export default function Navbar() {
             }}
           >
             <Navanime>RESUME</Navanime>
-          </Link>
+          </a>
 
-          <Link
+          <a
             href={"#contact"}
             onClick={() => {
               toggleNavList("#contact");
@@ -79,7 +78,7 @@ export default function Navbar() {
             }}
           >
             <Navanime>CONTACT</Navanime>
-          </Link>
+          </a>
         </ul>
 
         <div onClick={handleNav} className="block md:hidden cursor-pointer">
@@ -95,23 +94,23 @@ export default function Navbar() {
         }
       >
         <ul className="pt-24">
-          <Link href={"/"}>
+          <a href={"/"}>
             <Navanime>HOME</Navanime>
-          </Link>
-          <Link href={"#about"} onClick={() => toggleNavList("#about")}>
+          </a>
+          <a href={"#about"} onClick={() => toggleNavList("#about")}>
             <Navanime>ABOUT</Navanime>
-          </Link>
-          <Link href={"#skills"} onClick={() => toggleNavList("#skills")}>
+          </a>
+          <a href={"#skills"} onClick={() => toggleNavList("#skills")}>
             <Navanime>SKILLS</Navanime>
-          </Link>
+          </a>
 
-          <Link href={"#resume"} onClick={() => toggleNavList("#resume")}>
+          <a href={"#resume"} onClick={() => toggleNavList("#resume")}>
             <Navanime>RESUME</Navanime>
-          </Link>
+          </a>
 
-          <Link href={"#contact"} onClick={() => toggleNavList("#contact")}>
+          <a href={"#contact"} onClick={() => toggleNavList("#contact")}>
             <Navanime>CONTACT</Navanime>
-          </Link>
+          </a>
         </ul>
       </div>
     </>
