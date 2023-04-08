@@ -9,16 +9,10 @@ import Skill6 from "./Skill6";
 import Skill7 from "./Skill7";
 import Skill8 from "./Skill8";
 
-export default function Skills() {
+export default function Skills({ directionLeft }) {
   return (
-    <motion.div
-    initial={{
-      opacity: 0,
-    }}
-    transition={{
-      duration: 1.2,
-    }}
-    whileInView={{ opacity: 1}}
+    <div
+  
       className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px]
     xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
     >
@@ -29,7 +23,17 @@ export default function Skills() {
         Hover over a skill for current proficiency
       </h3>
 
-    <div className="grid grid-cols-4 gap-5">
+
+    <motion.div
+      initial={{
+        x: directionLeft ? -200 : 200,
+        opacity: 0,
+      }}
+      transition={{
+        duration: 1.5,
+      }}
+      whileInView={{ opacity: 1,x: 0}}
+      className="grid grid-cols-4 gap-5">
       <Skill1 />
       <Skill2 />
       <Skill3 />
@@ -38,9 +42,9 @@ export default function Skills() {
       <Skill6 />
       <Skill7 />
       <Skill8 />
+    </motion.div>
+
 
     </div>
-
-    </motion.div>
   );
 }

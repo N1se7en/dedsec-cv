@@ -62,13 +62,23 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href={"/"}
+            href={"#resume"}
             onClick={() => {
               toggleNavList("#resume");
               handleNav;
             }}
           >
             <Navanime>RESUME</Navanime>
+          </Link>
+
+          <Link
+            href={"#contact"}
+            onClick={() => {
+              toggleNavList("#contact");
+              handleNav;
+            }}
+          >
+            <Navanime>CONTACT</Navanime>
           </Link>
         </ul>
 
@@ -96,6 +106,10 @@ export default function Navbar() {
           </Link>
 
           <Link href={"#resume"} onClick={() => toggleNavList("#resume")}>
+            <Navanime>RESUME</Navanime>
+          </Link>
+
+          <Link href={"#contact"} onClick={() => toggleNavList("#contact")}>
             <Navanime>RESUME</Navanime>
           </Link>
         </ul>

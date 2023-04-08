@@ -1,4 +1,5 @@
 "use client";
+import Head from "next/head";
 import "./globals.css";
 
 export default function RootLayout({ children }) {
@@ -8,7 +9,7 @@ export default function RootLayout({ children }) {
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <head />
+      <Head />
 
       <body>{children}</body>
     </html>
