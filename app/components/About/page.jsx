@@ -28,7 +28,7 @@ export default function About() {
           <h2 className="text-4xl">
             Hi, I'm{" "}
             <span className="font-bold text-blue-500">Nahian Ashfak</span>
-          </h2>n
+          </h2>
           <p className="text-xl">
             I'm a Developer with a passion for building websites
             and applications. I'm a passionate individual who loves to code and

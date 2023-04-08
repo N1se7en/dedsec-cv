@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="mt-[-96px] h-screen mx-auto text-center flex flex-col justify-center">
         <h1 className="md:text-8xl sm:text-6xl text-4xl ">Nahian Ashfak</h1>
         <TypeAnimation
-        className="font-bold p-2 md:text-2xl font-mono"
+          className="font-bold p-2 md:text-2xl font-mono"
           sequence={[
             // Same String at the start will only be typed once, initially
             "CODER 💻",
