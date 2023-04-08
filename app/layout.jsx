@@ -1,8 +1,5 @@
 "use client";
 import "./globals.css";
-import { Monserrat } from "@next/font/google";
-import Script from "next/script";
-import Image from "next/image";
 
 export default function RootLayout({ children }) {
   return (
