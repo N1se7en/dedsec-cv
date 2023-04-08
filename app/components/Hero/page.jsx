@@ -25,7 +25,7 @@ export default function Hero() {
             1500,
             "WORKS AT GRAMEENPHONE",
             1500,
-            "VALORANT => Ni7#lit",
+            "VALORANT IGN => Ni7#lit",
             1500,
           ]}
           speed={50}
