@@ -44,7 +44,7 @@ export default function Home() {
         <Resume />
       </section>
 
-      <section id="#contact" className="snap-start">
+      <section id="#contact" className="snap-center">
         <Contact />
       </section>
 

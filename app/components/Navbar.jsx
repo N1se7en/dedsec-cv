@@ -110,7 +110,7 @@ export default function Navbar() {
           </Link>
 
           <Link href={"#contact"} onClick={() => toggleNavList("#contact")}>
-            <Navanime>RESUME</Navanime>
+            <Navanime>CONTACT</Navanime>
           </Link>
         </ul>
       </div>
