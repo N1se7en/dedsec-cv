@@ -22,14 +22,14 @@ export default function Resume() {
           whileInView={{ opacity: 1, x: 0 }}
           className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover
             md:rounded-full xl:rounded-full md:w-74 md:h-95 xl:w-[500px] xl:h-[500px]"
-          src="/CV.jpg"
+          src="/CV.png"
         />
         <div className="space-y-10 px-2 md:px-10">
           <h2 className="text-4xl">Scan the QR code </h2>
           <h2 className="text-4xl">OR </h2>
 
           <Link
-            href= "https://drive.google.com/file/d/1TmQniBvzNQBZ3A0Erw1mRGBR5gdB5pQ7/view"
+            href= "https://drive.google.com/file/d/1XEGo9mMsl8C-CfWuMuyC-9VOMCE7lTAR/view?usp=sharing"
             class="bg-sky-700 hover:bg-gray-400 hover:text-black text-white font-bold py-2 px-4 rounded inline-flex items-center"
           >
             <svg
