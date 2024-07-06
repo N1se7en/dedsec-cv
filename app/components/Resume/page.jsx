@@ -29,7 +29,7 @@ export default function Resume() {
           <h2 className="text-4xl">OR </h2>
 
           <Link
-            href= "https://drive.google.com/file/d/1V7j6gWEpFrAPmcPslehs8XNYxO60TQam/view?usp=sharing"
+            href= "https://drive.google.com/file/d/1vyxm13RAAebd1bQp04RMt9D_6BAQb1L6/view?usp=sharing"
             class="bg-sky-700 hover:bg-gray-400 hover:text-black text-white font-bold py-2 px-4 rounded inline-flex items-center"
           >
             <svg
